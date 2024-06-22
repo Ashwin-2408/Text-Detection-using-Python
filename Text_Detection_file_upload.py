@@ -1,12 +1,10 @@
 import tkinter
 from tkinter import *
 import tkinter.messagebox
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
+
 import tkinter.filedialog
 
-import time
+
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
 
 
