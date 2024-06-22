@@ -1,12 +1,30 @@
-The project is used for sentimental analysis of the provided statements which is built using tkintr
+# Sentiment Analysis Project
 
+This project is used for sentiment analysis of the provided statements, built using Tkinter.
 
-How to use it:
-1.clone the repository to your local machine
-2.make sure you have python downloaded
-3.install the packages  nltk 
-4.make sure to run this code once for the first time
-import nltk
-nltk.download('vader_lexicon')
-then you can remove this code 
-5.finally run the python application 
+## How to Use
+
+1. Clone the repository to your local machine:
+    ```sh
+    git clone <repository_url>
+    ```
+2. Make sure you have Python downloaded and installed.
+
+3. Install the required packages:
+    ```sh
+    pip install nltk
+    ```
+
+4. Run this code once to download necessary NLTK data:
+    ```python
+    import nltk
+    nltk.download('vader_lexicon')
+    ```
+   You can remove this code after running it once.
+
+5. Finally, run the Python application:
+    ```sh
+    python application.py
+    ```
+
+Enjoy using the sentiment analysis tool!
